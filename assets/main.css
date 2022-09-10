@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+html{
+ background-color: var(--Dark-Blue);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* common styles */
+
+
+ body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 30%;
+  }
+  
+  main{
+    background-color: var(--Dark-Grayish-Blue);
+    border-radius: 15px;
+    min-height: 300px;
+    max-height: 315px;
+    min-width: 300px;
+    max-width: 345px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  header{
+    align-items: center;
+    color: var(--Neon-Green);
+    display: flex;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 4px;
+  }
+  
+  article{
+    color: var(--Light-Cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    height: 180px;
+    margin-bottom: 15px;
+  }
+  
+  .division{
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 330px;
+  }
+  
+  .dice{
+    width: 60px;
+    height: 60px;
+    border-radius: 32px;
+    background-color: var(--Neon-Green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 385px;
+  }
+  
+  .dice img{
+    height: 20px;
+  }
+  
+  
+  footer{
+    color: #fafafa;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    height: 3rem;
+    width: 100%;
+  }
+  footer a{
+    color: var(--Neon-Green);
+  } 
+
+
