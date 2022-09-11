@@ -68,14 +68,14 @@ html{
     font-weight: 800;
     text-align: center;
     padding: 0 2rem;
-    font-size: 1.4rem;
+    font-size: 24px;
     letter-spacing: 1px;
     height: 180px;
     margin-bottom: 15px;
   }
   
   .division{
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -114,4 +114,63 @@ html{
     color: var(--Neon-Green);
   } 
 
+@media (min-width: 767px){
 
+  main{
+    max-width: 400px;
+  }
+
+  article{
+    font-size: 24px;
+  }
+
+  .division{
+    top: 440px
+  }
+
+  .dice{
+    top: 500px
+  }
+
+}
+
+@media (min-width: 1023px) {
+ body{
+  margin-top: 20%;
+ }
+   .division{
+    top: 410px
+  }
+
+  .dice{
+    top: 470px
+  }
+}
+
+@media (min-width: 1439px) {
+ body{
+  margin-top: 15%;
+ }
+
+   main{
+    max-width: 490px;
+  }
+
+   .division{
+    top: 410px
+  }
+
+  .dice{
+    top: 485px
+  }
+}
+
+@media (min-width: 1500px){
+     .division{
+    top: 480px
+  }
+
+  .dice{
+    top: 555px
+  }
+}
