@@ -1,5 +1,5 @@
 const header = document.querySelector('header')
-const advice = document.querySelector('article')
+const advice = document.querySelector('h1')
 const URL = "https://api.adviceslip.com/advice"
 
 const getAdvice = async () => {
